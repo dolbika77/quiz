@@ -1,0 +1,27 @@
+body {
+  background-color: #4594e4;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+table {
+  border: none;
+  width: 90%;
+  background-color: white;
+  text-align: center;
+}
+
+th {
+  background-color: #2e4760;
+  height: 20px;
+}
+th:nth-child(even) {
+  background-color: #4ec4a2;
+}
+tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
